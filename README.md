@@ -157,3 +157,7 @@ else:
     error_message = response.get("error", "An unknown error occurred.")
     
     print(f"Error: {error_message}")
+
+# UMG Sequence Diagram
+
+
