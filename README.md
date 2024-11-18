@@ -172,7 +172,7 @@ else:
 
 **C.	If the microservice isn’t done, which parts aren’t done and when will they be done?**
 
-    NA
+    N/A
 
 **D.	How is your teammate going to access your microservice? Should they get your code from GitHub (if so, provide a link to your public or private repo)? Should they run your code locally? Is your microservice hosted somewhere? Etc.**
 
