@@ -15,10 +15,13 @@ Retrieve historical exchange rates by specifying a date.
 
 
 **How to Programmatically REQUEST Data:**
+
 To request data from the Currency Converter Microservice, send a JSON-formatted message over a ZeroMQ socket with the required parameters.
 
 Request Message Format
+
 Type: JSON object
+
 Parameters:
 
 to_currency (string, required): The target currency code (e.g., "EUR", "JPY"). Must be a valid ISO 4217 currency code.
@@ -44,6 +47,7 @@ Copy code
 }
 
 **How to Send a Request**
+
 Below is an example of how to programmatically send a request to the microservice using Python and ZeroMQ. 
 
 python
@@ -61,6 +65,7 @@ socket = context.socket(zmq.REQ)
 socket.connect("tcp://localhost:5555")  # Replace with the appropriate address if necessary
 
 # Prepare the request data
+
 request = {
 
     "to_currency": "EUR",
