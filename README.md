@@ -7,7 +7,9 @@ Retrieve historical exchange rates by specifying a date.
 
 Communication Protocol
 Protocol: ZeroMQ (Zero Message Queue)
+
 Socket Type: REQ (Request) / REP (Reply) pattern
+
 Address: tcp://localhost:5555 (Ensure the microservice is running and listening on this address)
 
 How to Programmatically REQUEST Data
