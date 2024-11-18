@@ -5,13 +5,16 @@ The Currency Converter Microservice provides real-time and historical currency c
 Convert an amount from USD to a target currency using the latest exchange rates.
 Retrieve historical exchange rates by specifying a date.
 
-Communication Protocol
+Communication Protocol:
+
   Protocol: ZeroMQ (Zero Message Queue)
+
   Socket Type: REQ (Request) / REP (Reply) pattern
+
   Address: tcp://localhost:5555 (Ensure the microservice is running and listening on this address)
 
 
-How to Programmatically REQUEST Data
+How to Programmatically REQUEST Data:
 To request data from the Currency Converter Microservice, send a JSON-formatted message over a ZeroMQ socket with the required parameters.
 
 Request Message Format
@@ -23,10 +26,15 @@ date (string, optional): The date for historical exchange rates in YYYY-MM-DD fo
 Example Request
 json
 Copy code
+
 {
+
   "to_currency": "EUR",
+  
   "amount": 100.0,
+  
   "date": "2021-10-01"
+  
 }
 
 How to Send a Request
