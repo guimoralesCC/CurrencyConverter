@@ -6,11 +6,10 @@ Convert an amount from USD to a target currency using the latest exchange rates.
 Retrieve historical exchange rates by specifying a date.
 
 Communication Protocol
-Protocol: ZeroMQ (Zero Message Queue)
+  Protocol: ZeroMQ (Zero Message Queue)
+  Socket Type: REQ (Request) / REP (Reply) pattern
+  Address: tcp://localhost:5555 (Ensure the microservice is running and listening on this address)
 
-Socket Type: REQ (Request) / REP (Reply) pattern
-
-Address: tcp://localhost:5555 (Ensure the microservice is running and listening on this address)
 
 How to Programmatically REQUEST Data
 To request data from the Currency Converter Microservice, send a JSON-formatted message over a ZeroMQ socket with the required parameters.
