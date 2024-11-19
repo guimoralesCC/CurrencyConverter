@@ -184,7 +184,7 @@ else:
 
     He can message or call me through Discord.
     
-    I wil be available most of the time for this issue. 
+    I will be available most of the time for this issue. 
 
 **F.	If your teammate cannot access/call your microservice, by when do they need to tell you?**
 
@@ -194,7 +194,7 @@ else:
 
 **G.	Is there anything else your teammate needs to know? Anything you’re worried about? Any assumptions you’re making? Any other mitigations / backup plans you want to mention or want to discuss with your teammate?**
 
-     Zach can reach out anythime without hesistation, if there are any issues. 
+     Zach can reach out anytime without hesitation, if there are any issues. 
      
      I will attempt to respod promptly. 
 
