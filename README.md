@@ -176,18 +176,26 @@ else:
 
 **D.	How is your teammate going to access your microservice? Should they get your code from GitHub (if so, provide a link to your public or private repo)? Should they run your code locally? Is your microservice hosted somewhere? Etc.**
 
-    Zach can access it on https://github.com/guimoralesCC/CurrencyConverter. The code can be run locally. 
+    Zach can access it on https://github.com/guimoralesCC/CurrencyConverter.
+    
+    The code can be run locally. 
 
 **E.	If your teammate cannot access/call YOUR microservice, what should they do? Can you be available to help them? What’s your availability?**
 
-    He can message or call me through Discord. I wil be available most of the time for this issue. 
+    He can message or call me through Discord.
+    
+    I wil be available most of the time for this issue. 
 
 **F.	If your teammate cannot access/call your microservice, by when do they need to tell you?**
 
-    Preferably 24 hours before due date, but I will still respond within 24 hours before due date depending on my avaliabity that day. 
+    Preferably 24 hours before due date, but I will still respond 
+    
+    within 24 hours before due date depending on my avaliabity that day. 
 
 **G.	Is there anything else your teammate needs to know? Anything you’re worried about? Any assumptions you’re making? Any other mitigations / backup plans you want to mention or want to discuss with your teammate?**
 
-     Zach can reach out anythime without hesistation, if there are any issues. I will attempt to respod promptly. 
+     Zach can reach out anythime without hesistation, if there are any issues. 
+     
+     I will attempt to respod promptly. 
 
 
